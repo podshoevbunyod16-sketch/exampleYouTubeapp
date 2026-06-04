@@ -35,7 +35,7 @@ class GoogleAuthManager(private val context: Context) {
         .requestEmail()
         .requestProfile()
         .requestId()
-        .requestIdToken("67897869870-3sqegjvs0u8efjt74cd7s5pe0nh71t00.apps.googleusercontent.com")
+        .requestIdToken("67897869870-jgh96os35mpocjcv2s22gobgmrtmeg9p.apps.googleusercontent.com")
         .requestScopes(
             Scope(YOUTUBE_SCOPES[0]),
             Scope(YOUTUBE_SCOPES[1]),
